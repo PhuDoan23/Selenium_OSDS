@@ -12,7 +12,7 @@ import re
 all_links = []
 
 # Khởi tạo driver 1 lần duy nhất cho giai đoạn này
-driver = webdriver.Chrome()
+driver = webdriver.Safari()
 
 print("--- BẮT ĐẦU GIAI ĐOẠN 1: LẤY LINK ---")
 
