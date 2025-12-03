@@ -153,8 +153,8 @@ for idx, (list_name, url) in enumerate(university_links, start=1):
 #############################################
 
 df = pd.DataFrame(data)
-df.to_csv("universities_vietnam_headmasters.csv", index=False, encoding="utf-8-sig")
+df.to_csv("universities_vietnam.csv", index=False, encoding="utf-8-sig")
 
-print("Saved to universities_vietnam_headmasters.csv")
+print("Saved to universities_vietnam.csv")
 
 driver.quit()
