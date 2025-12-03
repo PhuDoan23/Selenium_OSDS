@@ -11,7 +11,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 NEW_POST_SELECTOR = "shreddit-post[permalink^='/r/']"
-OLD_POST_SELECTOR = "div.thing"
 
 
 def _dismiss_consent(driver):
