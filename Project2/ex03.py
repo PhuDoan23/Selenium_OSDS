@@ -10,14 +10,14 @@ import time
 import pandas as pd
 
 # Đường dẫn đến file thực thi geckodriver
-gecko_path = r"D:/OneDrive/Documents/GitHub/osds/02-Scraping Data/project2/geckodriver.exe"
+gecko_path = r"./geckodriver.exe"
 
 # Khởi tởi đối tượng dịch vụ với đường geckodriver
 ser = Service(gecko_path)
 
 # Tạo tùy chọn
-options = webdriver.firefox.options.Options();
-options.binary_location ="C:/Program Files/Mozilla Firefox/firefox.exe"
+options = webdriver.FirefoxOptions()
+options.binary_location ="/Applications/Firefox.app/Contents/MacOS/firefox"  
 # Thiết lập firefox chỉ hiện thị giao diện
 options.headless = False
 
